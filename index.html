@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramsanga Fanai's Personal Website</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: rgba(255, 255, 255, 0.8);
+            background-image: url('picture section/Pic\ at\ cafe\ by\ marama.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .overlay {
+            background: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        header {
+            background-color: rgba(104, 98, 98, 0.8);
+            color: white;
+            text-align: center;
+            padding: 2em 0;
+            border-radius: 0 0 20px 20px;
+        }
+        .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+        section {
+            padding: 40px;
+            margin: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .social-links a, .contact-links a {
+            margin: 10px;
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .instagram { background: #E1306C; }
+        .whatsapp { background: #25D366; }
+        .Email {background: #793131;}
+        .support {margin: 10px; text-decoration: underline;justify-content: center; display: flex;}
+    </style>
+</head>
+<body>
+    <div class="overlay"></div>
+    <header>
+        <h1>Ramsanga Fanai Welcomes You</h1>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+    <p>Welcome! I'm Lalramsanga. I am a Mathematics and Science teacher, and I also teach music. I have a certificate in music at Level 5, with a focus on classical piano. I am certified by Yusician.</p>
+    </section>
+
+<section id="photo-gallery">
+    <h2>Photo Gallery</h2>
+    <div class="gallery">
+        <a href="gallery.html" target="_top">Photo section</a>
+    </div>
+</section>
+
+    <section id="social">
+        <h2>Connect with Me</h2>
+        <div class="social-links">
+            <a href="https://www.instagram.com/mr_ma_ra_ma?igsh=MXFvYjA4cWlmNHZ5aQ==" target="_blank" class="button instagram">Follow Me on Instagram</a>
+            <a href="https://wa.me/917085216979" target="_blank" class="button whatsapp">Message Me on WhatsApp</a>
+            <a href="mailto:ramsangaf@gmail.com" target="_blank" class="button Email">Email Me</a>
+        </div>
+    </section>
+
+    <section id="payment">
+        <h2>Support Me</h2>
+        <div class="support">
+            <a href="payment.html" class="button support">Click Here</a>
+        </div>
+        
+    </section>
+</body>
+</html>
